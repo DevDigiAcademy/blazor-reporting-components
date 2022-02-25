@@ -25,6 +25,9 @@ namespace BlazorReportingTools
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+             //Register Bold license
+            //Bold.Licensing.BoldLicenseProvider.RegisterLicense("YOUR ONLINE LICENSE TOKEN");
+
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();

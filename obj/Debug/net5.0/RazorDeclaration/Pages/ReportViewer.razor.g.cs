@@ -98,7 +98,7 @@ using BlazorReportingTools.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "C:\Dati\blazor-reporting-components\Pages\ReportViewer.razor"
+#line 11 "C:\Dati\blazor-reporting-components\Pages\ReportViewer.razor"
        
     // ReportViewer options
     BoldReportViewerOptions viewerOptions = new BoldReportViewerOptions();
