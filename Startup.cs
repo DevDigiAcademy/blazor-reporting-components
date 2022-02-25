@@ -29,6 +29,13 @@ namespace BlazorReportingTools
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddControllers().AddNewtonsoftJson();
+            services.AddCors(o => o.AddPolicy("AllowCors", builder =>  
+                {  
+                    builder
+                            .AllowAnyOrigin()  
+                            .AllowAnyMethod()  
+                            .AllowAnyHeader();  
+                })); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +53,8 @@ namespace BlazorReportingTools
             app.UseStaticFiles();
 
             app.UseRouting();
+
+             app.UseCors("AllowCors"); // applying to every requests  
 
             app.UseEndpoints(endpoints =>
             {
