@@ -8,9 +8,11 @@ using BoldReports.Web.ReportViewer;
 using Microsoft.AspNetCore.Hosting;
 using BoldReports.Web.ReportDesigner;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.AspNetCore.Cors;
 
 namespace BlazorReportingTools.Data
 {
+    [EnableCors("AllowCors")]
     [Route("api/{controller}/{action}/{id?}")]
     public class ReportDesignerController : ControllerBase, IReportDesignerController
     {

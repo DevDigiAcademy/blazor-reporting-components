@@ -1,0 +1,75 @@
+{
+  "FilePath": "c:\\Dati\\blazor-reporting-components\\BlazorReportingTools.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "BlazorReportingTools",
+  "Documents": [
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Pages\\ReportDesigner.razor",
+      "TargetPath": "Pages\\ReportDesigner.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Pages\\ReportViewer.razor",
+      "TargetPath": "Pages\\ReportViewer.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Pages\\Error.razor",
+      "TargetPath": "Pages\\Error.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

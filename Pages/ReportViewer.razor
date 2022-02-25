@@ -6,6 +6,18 @@
 @inject IJSRuntime JSRuntime
 @using BlazorReportingTools.Data;
 
+<style> 
+    /*Changes the print icon*/ 
+    .e-reportviewer-print:before { 
+        content: '\e0aa';  /*Change custom icons for the built in icons*/ 
+    } 
+ 
+    /*Changes the export icon*/ 
+    .e-reportviewer-export:before { 
+        content: '\e241'; 
+    } 
+</style> 
+
 <div id="report-viewer" style="width: 100%;min-height:800px" />
 
 @code {
