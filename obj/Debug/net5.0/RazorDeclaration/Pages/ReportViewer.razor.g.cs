@@ -107,7 +107,7 @@ using BlazorReportingTools.Data;
     // Used to render the Bold Report Viewer component in Blazor page.
     public async void RenderReportViewer()
     {
-        viewerOptions.ReportName = "sales-order-detail";
+        viewerOptions.ReportName = "invoice" ;   //"company-sales";   //"sales-order-detail";
         viewerOptions.ServiceURL = "/api/BoldReportsAPI";
         await JSRuntime.InvokeVoidAsync("BoldReports.RenderViewer", "report-viewer", viewerOptions);
     }

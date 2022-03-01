@@ -26,7 +26,7 @@ namespace BlazorReportingTools
         public void ConfigureServices(IServiceCollection services)
         {
              //Register Bold license
-            //Bold.Licensing.BoldLicenseProvider.RegisterLicense("YOUR ONLINE LICENSE TOKEN");
+            Bold.Licensing.BoldLicenseProvider.RegisterLicense("d7wjIHyDS1OBLUNecGIRK8k51zj8a+R04rIMBKyi0tc=");
 
             services.AddRazorPages();
             services.AddServerSideBlazor();
