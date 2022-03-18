@@ -88,15 +88,13 @@ using BlazorReportingTools.Shared;
             __builder.AddMarkupContent(6, "<div class=\"top-row px-4\"><a href=\"https://docs.microsoft.com/aspnet/\" target=\"_blank\">About</a></div>\r\n\r\n    ");
             __builder.OpenElement(7, "div");
             __builder.AddAttribute(8, "class", "content px-4");
-            __builder.AddContent(9, 
 #nullable restore
 #line 13 "C:\Dati\blazor-reporting-components\Shared\MainLayout.razor"
-         Body
+__builder.AddContent(9, Body);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.CloseElement();
         }

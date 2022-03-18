@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pbj+NVKNUJ5ZdeE+S3BFARcJ2LR6Wmik9GpurJlbT+fI+RhZFfJ/vbbLejNaoqPIzx3ZLwT/tlJk8wZR7uMHcA==",
+  "dgSpecHash": "pNv0Ra1HNom+/RwuCVQ63ib8M58xtozyOOekp4yirOFi9mENvtHlaaL8xmsVBZhBDgh96//gFWoWN5YNl1lMVA==",
   "success": true,
   "projectFilePath": "C:\\Dati\\blazor-reporting-components\\BlazorReportingTools.csproj",
   "expectedPackageFiles": [
@@ -124,7 +124,8 @@
     "C:\\Users\\DigiAcademy\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\DigiAcademy\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\DigiAcademy\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
-    "C:\\Users\\DigiAcademy\\.nuget\\packages\\system.windows.extensions\\4.6.0\\system.windows.extensions.4.6.0.nupkg.sha512"
+    "C:\\Users\\DigiAcademy\\.nuget\\packages\\system.windows.extensions\\4.6.0\\system.windows.extensions.4.6.0.nupkg.sha512",
+    "C:\\Users\\DigiAcademy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
   "logs": []
 }

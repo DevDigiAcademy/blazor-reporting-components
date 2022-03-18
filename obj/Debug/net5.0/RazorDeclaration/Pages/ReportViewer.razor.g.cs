@@ -11,6 +11,7 @@ namespace BlazorReportingTools.Pages
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Components;
 #nullable restore
 #line 1 "C:\Dati\blazor-reporting-components\_Imports.razor"
 using System.Net.Http;
@@ -68,7 +69,7 @@ using BlazorReportingTools.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Dati\blazor-reporting-components\Pages\ReportViewer.razor"
+#line 3 "C:\Dati\blazor-reporting-components\Pages\ReportViewer.razor"
 using Microsoft.JSInterop;
 
 #line default
@@ -76,21 +77,13 @@ using Microsoft.JSInterop;
 #nullable disable
 #nullable restore
 #line 5 "C:\Dati\blazor-reporting-components\Pages\ReportViewer.razor"
-using Microsoft.AspNetCore.Components;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 7 "C:\Dati\blazor-reporting-components\Pages\ReportViewer.razor"
 using BlazorReportingTools.Data;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/ReportViewer")]
-    public partial class ReportViewer : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/reportviewer")]
+    public partial class ReportViewer : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,7 +91,7 @@ using BlazorReportingTools.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "C:\Dati\blazor-reporting-components\Pages\ReportViewer.razor"
+#line 10 "C:\Dati\blazor-reporting-components\Pages\ReportViewer.razor"
        
     // ReportViewer options
     BoldReportViewerOptions viewerOptions = new BoldReportViewerOptions();
@@ -107,15 +100,23 @@ using BlazorReportingTools.Data;
     // Used to render the Bold Report Viewer component in Blazor page.
     public async void RenderReportViewer()
     {
-        viewerOptions.ReportName = "invoice" ;   //"company-sales";   //"sales-order-detail";
+        viewerOptions.ReportName = "contributors";  //"Exams"  //"company-sales";   //"sales-order-detail";
         viewerOptions.ServiceURL = "/api/BoldReportsAPI";
+
         await JSRuntime.InvokeVoidAsync("BoldReports.RenderViewer", "report-viewer", viewerOptions);
     }
+
 
     // Initial rendering of Bold Report Viewer
     protected override void OnAfterRender(bool firstRender)
     {
         RenderReportViewer();
+    }
+
+    void IDisposable.Dispose()
+    {
+        // Unsubscribe from the event when our component is disposed
+        JSRuntime.InvokeAsync<bool>("DisposeReportsObject").GetAwaiter();
     }
 
 #line default

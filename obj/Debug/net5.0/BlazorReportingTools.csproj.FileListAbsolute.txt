@@ -5,7 +5,6 @@ C:\Dati\blazor-reporting-components\bin\Debug\net5.0\BlazorReportingTools.deps.j
 C:\Dati\blazor-reporting-components\bin\Debug\net5.0\BlazorReportingTools.runtimeconfig.json
 C:\Dati\blazor-reporting-components\bin\Debug\net5.0\BlazorReportingTools.runtimeconfig.dev.json
 C:\Dati\blazor-reporting-components\bin\Debug\net5.0\BlazorReportingTools.dll
-C:\Dati\blazor-reporting-components\bin\Debug\net5.0\ref\BlazorReportingTools.dll
 C:\Dati\blazor-reporting-components\bin\Debug\net5.0\BlazorReportingTools.pdb
 C:\Dati\blazor-reporting-components\bin\Debug\net5.0\BlazorReportingTools.Views.dll
 C:\Dati\blazor-reporting-components\bin\Debug\net5.0\BlazorReportingTools.Views.pdb
@@ -139,7 +138,6 @@ C:\Dati\blazor-reporting-components\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\BlazorReportingTools.RazorAssemblyInfo.cache
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\BlazorReportingTools.RazorAssemblyInfo.cs
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\staticwebassets\BlazorReportingTools.StaticWebAssets.Manifest.cache
-C:\Dati\blazor-reporting-components\obj\Debug\net5.0\staticwebassets\BlazorReportingTools.StaticWebAssets.xml
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\scopedcss\bundle\BlazorReportingTools.styles.css
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\BlazorReportingTools.RazorTargetAssemblyInfo.cache
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\BlazorReportingTools.RazorTargetAssemblyInfo.cs
@@ -149,3 +147,6 @@ C:\Dati\blazor-reporting-components\obj\Debug\net5.0\BlazorReportingTools.dll
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\ref\BlazorReportingTools.dll
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\BlazorReportingTools.pdb
 C:\Dati\blazor-reporting-components\obj\Debug\net5.0\BlazorReportingTools.genruntimeconfig.cache
+C:\Dati\blazor-reporting-components\obj\Debug\net5.0\refint\BlazorReportingTools.dll
+C:\Dati\blazor-reporting-components\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Dati\blazor-reporting-components\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs

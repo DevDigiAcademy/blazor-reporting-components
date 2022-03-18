@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 442682362,
+        "Kind": "Components.Component",
+        "Name": "BlazorReportingTools.App",
+        "AssemblyName": "BlazorReportingTools",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorReportingTools.App"
+        }
+      },
+      {
+        "HashCode": 1897096844,
+        "Kind": "Components.Component",
+        "Name": "BlazorReportingTools.App",
+        "AssemblyName": "BlazorReportingTools",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorReportingTools.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorReportingTools.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 2051189781,
         "Kind": "Components.Component",
         "Name": "BlazorReportingTools.Pages.Counter",
@@ -107,6 +140,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorReportingTools.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1036215845,
+        "Kind": "Components.Component",
+        "Name": "BlazorReportingTools.Pages.Index",
+        "AssemblyName": "BlazorReportingTools",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorReportingTools.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 397860596,
+        "Kind": "Components.Component",
+        "Name": "BlazorReportingTools.Pages.Index",
+        "AssemblyName": "BlazorReportingTools",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorReportingTools.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorReportingTools.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -355,39 +421,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorReportingTools.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 442682362,
-        "Kind": "Components.Component",
-        "Name": "BlazorReportingTools.App",
-        "AssemblyName": "BlazorReportingTools",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorReportingTools.App"
-        }
-      },
-      {
-        "HashCode": 1897096844,
-        "Kind": "Components.Component",
-        "Name": "BlazorReportingTools.App",
-        "AssemblyName": "BlazorReportingTools",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorReportingTools.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorReportingTools.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16001,6 +16034,11 @@
     {
       "FilePath": "c:\\Dati\\blazor-reporting-components\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dati\\blazor-reporting-components\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {

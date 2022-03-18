@@ -83,7 +83,7 @@ using BlazorReportingTools.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Dati\blazor-reporting-components\Shared\NavMenu.razor"
+#line 33 "C:\Dati\blazor-reporting-components\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

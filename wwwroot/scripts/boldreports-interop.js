@@ -12,3 +12,11 @@ window.BoldReports = {
         });
     }
 }
+
+window.DisposeReportsObject = () => {
+    var reportViewerElement = document.querySelector('.e-reportviewer.e-js');
+    if (reportViewerElement) {
+        $(reportViewerElement).data('boldReportViewer').destroy(); //Destroy the report viewer processing objects.
+    }
+    return true;
+}

@@ -6577,11 +6577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Dati\\blazor-reporting-components\\BlazorReportingTools.csproj",
+      "projectUniqueName": "C:\\Dati\\blazor-reporting-components\\BlazorReportingTools.csproj",
       "projectName": "BlazorReportingTools",
-      "projectPath": "c:\\Dati\\blazor-reporting-components\\BlazorReportingTools.csproj",
+      "projectPath": "C:\\Dati\\blazor-reporting-components\\BlazorReportingTools.csproj",
       "packagesPath": "C:\\Users\\DigiAcademy\\.nuget\\packages\\",
-      "outputPath": "c:\\Dati\\blazor-reporting-components\\obj\\",
+      "outputPath": "C:\\Dati\\blazor-reporting-components\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DigiAcademy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6639,6 +6639,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.14, 5.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6647,7 +6653,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
